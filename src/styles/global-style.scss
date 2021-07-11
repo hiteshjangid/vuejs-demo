@@ -1,0 +1,16 @@
+$white-color:#fff;
+
+th.item-heading,
+td.item-data {
+    text-align: left;
+}
+.navbar-dark{
+    .navbar-nav{
+        .nav-link{
+            &.active{
+                text-decoration: underline;    
+            }
+            color: $white-color;
+        }
+    }
+} 
